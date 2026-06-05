@@ -15,7 +15,7 @@ get_proportions <- function(x) {
 }
 
 # Load data files
-rawdata<-read.csv("data/Latest_format/hdcpt_p10_full.csv")    #Supply relevant data file
+fulldata<-read.csv("hdcpt_laplace_p10_XL0.csv")    #Supply relevant data file
 
 # ==== Detectability plots ====
 data1 <- fulldata %>%
